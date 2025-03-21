@@ -1,25 +1,28 @@
-from langchain_community.vectorstores import Chroma
+import os
 from langchain_community.embeddings import HuggingFaceEmbeddings
-# from langchain_community.embeddings import OpenAIEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import PyPDFLoader
-
-loaders = [PyPDFLoader('./law.pdf'), PyPDFLoader('./law2.pdf'),
-           PyPDFLoader('./law3.pdf'), PyPDFLoader('./law4.pdf')]
-
-docs = []
-
-for file in loaders:
-    docs.extend(file.load())
-
-text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=1000, chunk_overlap=100)
-docs = text_splitter.split_documents(docs)
-embedding_function = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2", model_kwargs={'device': 'cpu'})
+from langchain_community.vectorstores import Chroma
+from langchain.llms import OpenAI
+from dotenv import load_dotenv
+# from langchain_openai import ChatOpenAI
+# from langchain.memory import ConversationBufferWindowMemory
+# from langchain.memory import ConversationBufferMemory
+# from langchain.prompts import PromptTemplate
+# from langchain.chains import LLMChain
 
 
-vectorstore = Chroma.from_documents(
-    docs, embedding_function, persist_directory="./chroma_db_nccn")
+def get_relevent_context_from_db(query):
+    context = ""
+    embedding_function = HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2")
+    vector_db = Chroma(persist_directory="./chroma_db_nccn",
+                       embedding_function=embedding_function)
+    search_results = vector_db.similarity_search(query, k=6)
+    for result in search_results:
+        context += result.page_content + "\n"
+    return context
 
-print(vectorstore._collection.count())
+
+context = get_relevent_context_from_db(
+    "how much memory do i have left in my system")
+
+print(context)
