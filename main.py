@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 
-# Load environment variables
 load_dotenv()
 
 
@@ -55,7 +54,7 @@ def get_response(query):
 
     model = ChatGroq(
         api_key=groq_api_key,
-        model_name="llama3-70b-8192"
+        model_name="llama-3.1-8b-instant"
     )
 
     human_message = """
@@ -84,6 +83,9 @@ def get_response(query):
 
 
 if __name__ == "__main__":
-    query = "do i have docker installed in this system?"
-    response = get_response(query)
-    print(response)
+    while True:
+        query = input("Enter your query (type 'quit' to exit): ")
+        if query.lower() == 'quit':
+            break
+        response = get_response(query)
+        print("Clearch 🤖 : "+response)
