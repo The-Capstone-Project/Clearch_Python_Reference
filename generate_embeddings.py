@@ -1,10 +1,10 @@
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-# from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import TextLoader  # Changed from PyPDFLoader
+from langchain_community.document_loaders import TextLoader
+# * Make the OS Scraper dump the contents of the scrpe to ths os.txt file
+# * Put this os.txt file in some global location where the Vector store can access it
 
-# Load the os.txt file instead of PDF files
 loader = TextLoader('./os.txt')
 docs = loader.load()
 
@@ -16,6 +16,6 @@ embedding_function = HuggingFaceEmbeddings(
 
 
 vectorstore = Chroma.from_documents(
-    docs, embedding_function, persist_directory="./chroma_db_nccn")
+    docs, embedding_function, persist_directory="./chroma_db_nccn")  # Give some global place to dummp the chroma directory
 
 print(vectorstore._collection.count())
