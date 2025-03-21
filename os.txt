@@ -1,0 +1,1545 @@
+[OUTPUT] Running all modules:
+Environment Information:
+LC_TIME: en_IN
+ICEAUTHORITY: /run/user/1000/iceauth_xaPqEJ
+LC_PAPER: en_IN
+XDG_DATA_DIRS: /home/ac/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+LANG: en_IN
+XAUTHORITY: /run/user/1000/xauth_MLkVRr
+LC_NUMERIC: en_IN
+COLORTERM: truecolor
+BROWSER: firedragon
+MANPAGER: sh -c 'col -bx | bat -l man -p'
+STARSHIP_SESSION_KEY: 2178623633283551
+AMD_VULKAN_ICD: RADV
+WINDOWID: 1
+DEBUGINFOD_URLS: https://debuginfod.archlinux.org 
+XDG_SESSION_DESKTOP: KDE
+QT_AUTO_SCREEN_SCALE_FACTOR: 0
+TERM: xterm-256color
+KDE_SESSION_VERSION: 6
+INVOCATION_ID: 2bdda692496f4e6ca0d597a21c562e56
+PROFILEHOME: 
+DESKTOP_SESSION: plasma
+TNS_ADMIN: /etc/tnsnames.ora
+XDG_SESSION_TYPE: wayland
+KONSOLE_DBUS_SESSION: /Sessions/1
+LANGUAGE: 
+LC_IDENTIFICATION: en_IN
+COLORFGBG: 15;0
+XDG_SESSION_CLASS: user
+KONSOLE_VERSION: 241203
+XDG_SESSION_ID: 2
+QT_WAYLAND_RECONNECT: 1
+SYSTEMD_EXEC_PID: 83854
+MEMORY_PRESSURE_WRITE: c29tZSAyMDAwMDAgMjAwMDAwMAA=
+XDG_VTNR: 1
+XDG_CONFIG_DIRS: /home/ac/.config/kdedefaults:/etc/xdg
+LC_TELEPHONE: en_IN
+LC_MONETARY: en_IN
+KDE_FULL_SESSION: true
+KDE_APPLICATIONS_AS_SCOPE: 1
+STARSHIP_SHELL: fish
+LC_MEASUREMENT: en_IN
+DISPLAY: :1
+XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+ORACLE_HOME: /opt/oracle/product/18c/dbhomeXE
+LOGNAME: ac
+EDITOR: /usr/bin/micro
+PWD: /home/ac/Clearch
+MOZ_ENABLE_WAYLAND: 1
+XKB_DEFAULT_LAYOUT: us
+GTK2_RC_FILES: /etc/gtk-2.0/gtkrc:/home/ac/.gtkrc-2.0:/home/ac/.config/gtkrc-2.0
+KDE_SESSION_UID: 1000
+KONSOLE_DBUS_WINDOW: /Windows/1
+USER: ac
+MEMORY_PRESSURE_WATCH: /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure
+MOTD_SHOWN: pam
+SESSION_MANAGER: local/EDITH:@/tmp/.ICE-unix/1836,unix/EDITH:/tmp/.ICE-unix/1836
+JOURNAL_STREAM: 9:677908
+MAIL: /var/spool/mail/ac
+XDG_RUNTIME_DIR: /run/user/1000
+XDG_SEAT: seat0
+ORACLE_SID: XE
+SHELL: /usr/bin/fish
+LC_NAME: en_IN
+PAM_KWALLET5_LOGIN: /run/user/1000/kwallet5.socket
+SHLVL: 1
+DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1000/bus
+XDG_MENU_PREFIX: plasma-
+LC_ADDRESS: en_IN
+GTK_RC_FILES: /etc/gtk/gtkrc:/home/ac/.gtkrc:/home/ac/.config/gtkrc
+VISUAL: kate
+XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session1
+KONSOLE_DBUS_SERVICE: :1.1029
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/opt/oracle/product/18c/dbhomeXE/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HOME: /home/ac
+WAYLAND_DISPLAY: wayland-0
+SHELL_SESSION_ID: 1cbc1a070ad041ffa31a84b228151577
+GTK_USE_PORTAL: 1
+MANROFFOPT: -c
+XDG_CURRENT_DESKTOP: KDE
+MANAGERPID: 1645
+Loaded Kernel Modules:
+Module                  Size  Used by
+ntfs3                 360448  1
+exfat                 118784  0
+ufs                   102400  0
+hfsplus               172032  0
+hfs                   102400  0
+cdrom                  86016  2 hfsplus,hfs
+minix                  53248  0
+msdos                  16384  0
+jfs                   274432  0
+nls_ucs2_utils          8192  1 jfs
+xfs                  4071424  0
+ext4                 1196032  0
+mbcache                16384  1 ext4
+jbd2                  208896  1 ext4
+ccm                    20480  3
+snd_seq_dummy          12288  0
+rfcomm                102400  7
+snd_hrtimer            12288  1
+snd_seq               135168  7 snd_seq_dummy
+snd_seq_device         16384  1 snd_seq
+xt_conntrack           12288  1
+xt_MASQUERADE          16384  1
+bridge                479232  0
+stp                    12288  1 bridge
+llc                    16384  2 bridge,stp
+xt_set                 24576  0
+ip_set                 69632  1 xt_set
+nft_chain_nat          12288  5
+nf_nat                 65536  2 nft_chain_nat,xt_MASQUERADE
+nf_conntrack          212992  3 xt_conntrack,nf_nat,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+xt_addrtype            12288  4
+nft_compat             24576  6
+nf_tables             413696  75 nft_compat,nft_chain_nat
+xfrm_user              69632  1
+xfrm_algo              16384  1 xfrm_user
+overlay               245760  0
+qrtr                   57344  2
+cmac                   12288  3
+algif_hash             12288  1
+algif_skcipher         12288  1
+af_alg                 32768  6 algif_hash,algif_skcipher
+bnep                   32768  2
+snd_ctl_led            24576  0
+snd_soc_skl_hda_dsp    16384  4
+snd_soc_intel_sof_board_helpers    28672  1 snd_soc_skl_hda_dsp
+snd_soc_intel_hda_dsp_common    16384  1 snd_soc_intel_sof_board_helpers
+snd_sof_probes         28672  0
+vfat                   24576  1
+fat                   110592  2 msdos,vfat
+snd_hda_codec_hdmi    106496  1
+snd_hda_codec_realtek   233472  1
+xe                   3506176  0
+snd_hda_codec_generic   131072  1 snd_hda_codec_realtek
+snd_hda_scodec_component    20480  1 snd_hda_codec_realtek
+snd_soc_dmic           12288  1
+drm_gpuvm              49152  1 xe
+drm_exec               12288  2 drm_gpuvm,xe
+gpu_sched              65536  1 xe
+drm_ttm_helper         16384  1 xe
+drm_suballoc_helper    16384  1 xe
+snd_sof_pci_intel_tgl    16384  0
+snd_sof_pci_intel_cnl    20480  1 snd_sof_pci_intel_tgl
+snd_sof_intel_hda_generic    40960  2 snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+soundwire_intel        81920  1 snd_sof_intel_hda_generic
+soundwire_cadence      57344  1 soundwire_intel
+snd_sof_intel_hda_common   208896  3 snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+snd_soc_hdac_hda       28672  1 snd_sof_intel_hda_common
+snd_sof_intel_hda_mlink    36864  3 soundwire_intel,snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+snd_sof_intel_hda      20480  2 snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+snd_sof_pci            24576  3 snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+snd_sof_xtensa_dsp     16384  1 snd_sof_intel_hda_generic
+snd_sof               479232  6 snd_sof_pci,snd_sof_intel_hda_common,snd_sof_intel_hda_generic,snd_sof_probes,snd_sof_intel_hda,snd_sof_pci_intel_cnl
+snd_sof_utils          16384  1 snd_sof
+snd_soc_acpi_intel_match   122880  4 snd_soc_intel_sof_board_helpers,snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+intel_uncore_frequency    12288  0
+snd_soc_acpi_intel_sdca_quirks    12288  1 snd_soc_acpi_intel_match
+intel_uncore_frequency_common    20480  1 intel_uncore_frequency
+soundwire_generic_allocation    12288  1 soundwire_intel
+snd_soc_acpi           16384  2 snd_soc_acpi_intel_match,snd_sof_intel_hda_generic
+soundwire_bus         151552  3 soundwire_intel,soundwire_generic_allocation,soundwire_cadence
+snd_soc_sdca           12288  2 snd_soc_acpi_intel_sdca_quirks,soundwire_bus
+rtw88_8822ce           12288  0
+snd_soc_avs           245760  0
+rtw88_8822c           499712  1 rtw88_8822ce
+x86_pkg_temp_thermal    16384  0
+snd_soc_hda_codec      28672  1 snd_soc_avs
+rtw88_pci              40960  1 rtw88_8822ce
+intel_powerclamp       20480  0
+rtw88_core            352256  2 rtw88_pci,rtw88_8822c
+coretemp               24576  0
+snd_hda_ext_core       36864  6 snd_soc_avs,snd_soc_hda_codec,snd_sof_intel_hda_common,snd_soc_hdac_hda,snd_sof_intel_hda_mlink,snd_sof_intel_hda
+kvm_intel             446464  0
+snd_soc_core          466944  10 snd_soc_avs,snd_soc_hda_codec,soundwire_intel,snd_sof,snd_soc_intel_sof_board_helpers,snd_sof_intel_hda_common,snd_soc_hdac_hda,snd_sof_probes,snd_soc_dmic,snd_soc_skl_hda_dsp
+i915                 4931584  122
+snd_compress           28672  3 snd_soc_avs,snd_soc_core,snd_sof_probes
+ac97_bus               12288  1 snd_soc_core
+mac80211             1712128  2 rtw88_pci,rtw88_core
+btusb                  81920  0
+kvm                  1474560  1 kvm_intel
+processor_thermal_device_pci    16384  0
+snd_pcm_dmaengine      16384  1 snd_soc_core
+processor_thermal_device    20480  1 processor_thermal_device_pci
+btrtl                  32768  1 btusb
+iTCO_wdt               16384  0
+snd_hda_intel          69632  0
+processor_thermal_wt_hint    16384  2 processor_thermal_device_pci,processor_thermal_device
+btintel                69632  1 btusb
+drm_buddy              24576  2 xe,i915
+uvcvideo              180224  0
+processor_thermal_rfim    36864  1 processor_thermal_device
+intel_rapl_msr         20480  0
+btbcm                  24576  1 btusb
+intel_pmc_bxt          16384  1 iTCO_wdt
+ttm                   114688  3 drm_ttm_helper,xe,i915
+snd_intel_dspcfg       45056  5 snd_soc_avs,snd_hda_intel,snd_sof,snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+processor_thermal_rapl    16384  1 processor_thermal_device
+btmtk                  36864  1 btusb
+libarc4                12288  1 mac80211
+rapl                   20480  0
+videobuf2_vmalloc      20480  1 uvcvideo
+ee1004                 16384  0
+iTCO_vendor_support    12288  1 iTCO_wdt
+spi_nor               184320  0
+snd_intel_sdw_acpi     16384  2 snd_intel_dspcfg,snd_sof_intel_hda_generic
+i2c_algo_bit           24576  2 xe,i915
+ums_realtek            24576  0
+intel_rapl_common      57344  2 intel_rapl_msr,processor_thermal_rapl
+hp_wmi                 45056  0
+mtd                   110592  3 spi_nor
+bluetooth            1163264  42 btrtl,btmtk,btintel,btbcm,bnep,btusb,rfcomm
+intel_cstate           20480  0
+snd_hda_codec         229376  10 snd_hda_codec_generic,snd_soc_avs,snd_hda_codec_hdmi,snd_soc_hda_codec,snd_hda_intel,snd_hda_codec_realtek,snd_soc_intel_hda_dsp_common,snd_soc_hdac_hda,snd_sof_intel_hda,snd_soc_skl_hda_dsp
+uvc                    12288  1 uvcvideo
+uas                    32768  0
+crc16                  12288  2 bluetooth,ext4
+wmi_bmof               12288  0
+platform_profile       12288  1 hp_wmi
+drm_display_helper    286720  2 xe,i915
+videobuf2_memops       16384  1 videobuf2_vmalloc
+processor_thermal_wt_req    12288  1 processor_thermal_device
+i2c_i801               40960  0
+intel_uncore          274432  0
+usb_storage            94208  2 uas,ums_realtek
+snd_hda_core          151552  12 snd_hda_codec_generic,snd_soc_avs,snd_hda_codec_hdmi,snd_soc_hda_codec,snd_hda_intel,snd_hda_ext_core,snd_hda_codec,snd_hda_codec_realtek,snd_soc_intel_hda_dsp_common,snd_sof_intel_hda_common,snd_soc_hdac_hda,snd_sof_intel_hda
+cfg80211             1425408  2 rtw88_core,mac80211
+spi_intel_pci          12288  0
+videobuf2_v4l2         45056  1 uvcvideo
+processor_thermal_power_floor    12288  2 processor_thermal_device_pci,processor_thermal_device
+i2c_smbus              20480  1 i2c_i801
+videobuf2_common       98304  4 videobuf2_vmalloc,videobuf2_v4l2,uvcvideo,videobuf2_memops
+snd_hwdep              20480  1 snd_hda_codec
+spi_intel              36864  1 spi_intel_pci
+cec                   106496  3 drm_display_helper,xe,i915
+i2c_mux                16384  1 i2c_i801
+processor_thermal_mbox    12288  4 processor_thermal_power_floor,processor_thermal_wt_req,processor_thermal_rfim,processor_thermal_wt_hint
+rfkill                 40960  8 hp_wmi,bluetooth,cfg80211
+intel_gtt              28672  1 i915
+igen6_edac             36864  0
+intel_pmc_core        126976  0
+intel_vsec             20480  1 intel_pmc_core
+pmt_telemetry          16384  1 intel_pmc_core
+intel_hid              32768  0
+int3403_thermal        16384  0
+int3400_thermal        24576  0
+joydev                 24576  0
+pmt_class              16384  1 pmt_telemetry
+soc_button_array       24576  0
+sparse_keymap          12288  2 hp_wmi,intel_hid
+acpi_thermal_rel       20480  1 int3400_thermal
+acpi_pad              184320  0
+int340x_thermal_zone    16384  2 int3403_thermal,processor_thermal_device
+acpi_tad               24576  0
+mousedev               24576  0
+mac_hid                12288  0
+dm_mod                229376  0
+loop                   40960  0
+nfnetlink              20480  5 nft_compat,nf_tables,ip_set
+zram                   65536  1
+842_decompress         16384  1 zram
+842_compress           24576  1 zram
+lz4hc_compress         20480  1 zram
+lz4_compress           24576  1 zram
+ip_tables              36864  0
+x_tables               65536  6 xt_conntrack,nft_compat,xt_addrtype,xt_set,ip_tables,xt_MASQUERADE
+usbhid                 90112  0
+crct10dif_pclmul       12288  1
+crc32_pclmul           12288  0
+hid_multitouch         36864  0
+hid_generic            12288  0
+polyval_clmulni        12288  0
+polyval_generic        12288  1 polyval_clmulni
+ghash_clmulni_intel    16384  0
+sha512_ssse3           53248  0
+sha256_ssse3           36864  1
+sha1_ssse3             36864  0
+serio_raw              20480  0
+aesni_intel           126976  6
+atkbd                  40960  0
+nvme                   69632  4
+libps2                 24576  1 atkbd
+vivaldi_fmap           12288  1 atkbd
+gf128mul               20480  2 polyval_generic,aesni_intel
+crypto_simd            16384  1 aesni_intel
+nvme_core             266240  5 nvme
+intel_lpss_pci         28672  0
+cryptd                 32768  3 crypto_simd,ghash_clmulni_intel
+intel_lpss             12288  1 intel_lpss_pci
+nvme_auth              24576  1 nvme_core
+idma64                 20480  0
+i8042                  57344  0
+i2c_hid_acpi           12288  0
+video                  81920  2 xe,i915
+i2c_hid                45056  1 i2c_hid_acpi
+serio                  28672  4 serio_raw,atkbd,i8042
+wmi                    32768  3 hp_wmi,video,wmi_bmof
+pinctrl_tigerlake      28672  1
+btrfs                2277376  1
+blake2b_generic        24576  0
+libcrc32c              12288  5 nf_conntrack,nf_nat,btrfs,nf_tables,xfs
+crc32c_generic         12288  0
+crc32c_intel           12288  2
+xor                    20480  1 btrfs
+raid6_pq              122880  1 btrfs
+uinput                 24576  1
+snd_aloop              40960  1
+snd_pcm               221184  14 snd_soc_avs,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,soundwire_intel,snd_sof,snd_sof_intel_hda_common,snd_compress,snd_sof_intel_hda_generic,snd_soc_core,snd_sof_utils,snd_aloop,snd_hda_core,snd_pcm_dmaengine
+snd_timer              57344  4 snd_seq,snd_hrtimer,snd_aloop,snd_pcm
+snd                   163840  27 snd_ctl_led,snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_sof,snd_timer,snd_compress,snd_soc_core,snd_aloop,snd_pcm
+soundcore              16384  2 snd_ctl_led,snd
+videodev              413696  2 videobuf2_v4l2,uvcvideo
+mc                     98304  4 videodev,videobuf2_v4l2,uvcvideo,videobuf2_common
+i2c_dev                28672  0
+crypto_user            16384  0
+
+Module Info for 'ext4':
+filename:       /lib/modules/6.13.6-zen1-1-zen/kernel/fs/ext4/ext4.ko.zst
+softdep:        pre: crc32c
+license:        GPL
+description:    Fourth Extended Filesystem
+author:         Remy Card, Stephen Tweedie, Andrew Morton, Andreas Dilger, Theodore Ts'o and others
+alias:          fs-ext4
+alias:          ext3
+alias:          fs-ext3
+alias:          ext2
+alias:          fs-ext2
+srcversion:     7C4ED48E4D4497ABB6938F4
+depends:        jbd2,crc16,mbcache
+intree:         Y
+name:           ext4
+retpoline:      Y
+vermagic:       6.13.6-zen1-1-zen SMP preempt mod_unload 
+sig_id:         PKCS#7
+signer:         Build time autogenerated kernel key
+sig_key:        76:C1:C7:A3:B1:A5:93:4B:53:1E:22:89:09:B1:1F:9C:3F:8C:B1:F6
+sig_hashalgo:   sha512
+signature:      30:65:02:30:56:A1:C0:04:B5:A6:05:93:7C:C8:B0:1E:C6:8D:84:0C:
+		59:9B:07:3E:92:98:D8:60:4D:8A:0C:36:32:D9:C3:82:FA:A8:85:C9:
+		36:FF:F1:88:6E:B5:98:62:FF:6E:2C:47:02:31:00:B6:F5:4B:00:84:
+		43:C4:E1:19:31:A2:72:D5:DF:0B:7C:B2:55:A0:E9:A2:B2:5C:ED:E6:
+		F1:E4:B0:DC:2C:D2:81:25:25:D4:F4:DE:B8:A8:61:3D:48:FC:99:15:
+		35:F0:98
+
+Kernel Module Configuration Files:
+File: /etc/modprobe.d/firewalld-sysctls.conf
+Content:
+install nf_conntrack /usr/bin/modprobe --ignore-install nf_conntrack $CMDLINE_OPTS && /sbin/sysctl --quiet --pattern 'net[.]netfilter[.]nf_conntrack.*' --system
+
+File: /etc/modules-load.d/droidcam.conf
+Content:
+videodev
+v4l2loopback-dc
+snd-aloop
+
+File: /etc/modules-load.d/gnutls.conf
+Content:
+#tls
+
+
+---- Distribution Info ----
+LSB Version:	n/a
+Distributor ID:	Garuda
+Description:	Garuda Linux Broadwing
+Release:	Soaring
+Codename:	Broadwing
+
+---- Kernel Version ----
+6.13.6-zen1-1-zen
+
+---- Full Kernel Information ----
+Linux EDITH 6.13.6-zen1-1-zen #1 ZEN SMP PREEMPT_DYNAMIC Fri, 07 Mar 2025 20:18:44 +0000 x86_64 GNU/Linux
+
+---- GRUB Settings ----
+# GRUB boot loader configuration
+
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR='Garuda'
+GRUB_CMDLINE_LINUX_DEFAULT='quiet resume=UUID=ac06d442-5cee-4040-89b2-26610a6f179b loglevel=3'
+GRUB_CMDLINE_LINUX=""
+
+# Preload both GPT and MBR modules so that they are not missed
+GRUB_PRELOAD_MODULES="part_gpt part_msdos"
+
+# Uncomment to enable booting from LUKS encrypted devices
+#GRUB_ENABLE_CRYPTODISK=y
+
+# Set to 'countdown' or 'hidden' to change timeout behavior,
+# press ESC key to display menu.
+GRUB_TIMEOUT_STYLE=menu
+
+# Uncomment to use basic console
+GRUB_TERMINAL_INPUT=console
+
+# Uncomment to disable graphical terminal
+#GRUB_TERMINAL_OUTPUT=console
+
+# The resolution used on graphical terminal
+# note that you can use only modes which your graphic card supports via VBE
+# you can see them in real GRUB with the command `videoinfo'
+GRUB_GFXMODE=auto
+
+# Uncomment to allow the kernel use the same resolution used by grub
+GRUB_GFXPAYLOAD_LINUX=keep
+
+# Uncomment if you want GRUB to pass to the Linux kernel the old parameter
+# format "root=/dev/xxx" instead of "root=/dev/disk/by-uuid/xxx"
+#GRUB_DISABLE_LINUX_UUID=true
+
+# Uncomment to disable generation of recovery mode menu entries
+#GRUB_DISABLE_RECOVERY=true
+
+# Uncomment and set to the desired menu colors.  Used by normal and wallpaper
+# modes only.  Entries specified as foreground/background.
+#GRUB_COLOR_NORMAL="light-blue/black"
+#GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
+
+# Uncomment one of them for the gfx desired, a image background or a gfxtheme
+#GRUB_BACKGROUND="/path/to/wallpaper"
+GRUB_THEME="/usr/share/grub/themes/garuda-dr460nized/theme.txt"
+
+# Uncomment to get a beep at GRUB start
+#GRUB_INIT_TUNE="480 440 1"
+
+# Uncomment to make GRUB remember the last selection. This requires
+# setting 'GRUB_DEFAULT=saved' above.
+#GRUB_SAVEDEFAULT=true
+
+# Uncomment to disable submenus in boot menu
+#GRUB_DISABLE_SUBMENU=y
+
+# Probing for other operating systems is disabled for security reasons. Read
+# documentation on GRUB_DISABLE_OS_PROBER, if still want to enable this
+# functionality install os-prober and uncomment to detect and include other
+# operating systems.
+GRUB_DISABLE_OS_PROBER=false
+
+# This config file imports drop-in files from /etc/default/grub.d/.
+for garuda_grub_d in ${sysconfdir}/default/grub.d/*.cfg ; do if [ -e "${garuda_grub_d}" ]; then source "${garuda_grub_d}"; fi; done
+GRUB_EARLY_INITRD_LINUX_STOCK=''
+
+---- CPU Information ----
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               12
+On-line CPU(s) list:                  0-11
+Vendor ID:                            GenuineIntel
+Model name:                           12th Gen Intel(R) Core(TM) i5-1235U
+CPU family:                           6
+Model:                                154
+Thread(s) per core:                   2
+Core(s) per socket:                   10
+Socket(s):                            1
+Stepping:                             4
+CPU(s) scaling MHz:                   44%
+CPU max MHz:                          4400.0000
+CPU min MHz:                          400.0000
+BogoMIPS:                             4992.00
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr flush_l1d arch_capabilities
+Virtualization:                       VT-x
+L1d cache:                            352 KiB (10 instances)
+L1i cache:                            576 KiB (10 instances)
+L2 cache:                             6.5 MiB (4 instances)
+L3 cache:                             12 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-11
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Mitigation; Clear Register File
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+---- Memory Information ----
+total        used        free      shared  buff/cache   available
+Mem:           7.4Gi       5.8Gi       239Mi       699Mi       2.4Gi       1.6Gi
+Swap:           23Gi       7.1Gi        15Gi
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p1  272G  112G  160G  42% /
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           3.8G  165M  3.6G   5% /dev/shm
+efivarfs        256K  155K   97K  62% /sys/firmware/efi/efivars
+tmpfs           1.5G  2.0M  1.5G   1% /run
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/nvme0n1p1  272G  112G  160G  42% /home
+/dev/nvme0n1p1  272G  112G  160G  42% /root
+/dev/nvme0n1p1  272G  112G  160G  42% /srv
+tmpfs           3.8G   82M  3.7G   3% /tmp
+/dev/nvme0n1p1  272G  112G  160G  42% /var/log
+/dev/nvme0n1p1  272G  112G  160G  42% /var/cache
+/dev/nvme0n1p1  272G  112G  160G  42% /var/tmp
+/dev/nvme0n1p3  3.9G  608K  3.9G   1% /boot/efi
+tmpfs           761M  260K  761M   1% /run/user/1000
+/dev/nvme0n1p6  185G   51G  135G  28% /run/media/ac/76C65382C6534193
+
+---- Network Interfaces ----
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: wlo1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether e8:fb:1c:c2:40:53 brd ff:ff:ff:ff:ff:ff
+    altname wlp1s0
+    altname wlxe8fb1cc24053
+    inet 192.168.1.42/24 brd 192.168.1.255 scope global dynamic noprefixroute wlo1
+       valid_lft 78896sec preferred_lft 78896sec
+    inet6 fe80::c5b1:5a8e:512e:89a4/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 9e:de:9b:c1:33:8b brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+
+---- Routing Table ----
+default via 192.168.1.1 dev wlo1 proto dhcp src 192.168.1.42 metric 600 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.1.0/24 dev wlo1 proto kernel scope link src 192.168.1.42 metric 600
+
+---- System Information ----
+Static hostname: EDITH
+       Icon name: computer-laptop
+         Chassis: laptop 💻
+      Machine ID: f879636c9f564792af5f944f0f2d8984
+         Boot ID: c223139e73ba4418b3cb00f377b38b41
+Operating System: Garuda Linux
+          Kernel: Linux 6.13.6-zen1-1-zen
+    Architecture: x86-64
+ Hardware Vendor: HP
+  Hardware Model: HP Laptop 14s-dq5xxx
+Firmware Version: F.19
+   Firmware Date: Mon 2023-07-03
+    Firmware Age: 1y 8month 2w 4d
+
+---- File Systems ----
+/dev/nvme0n1p1  on  /                                          type  btrfs            (rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvolid=256,subvol=/@)
+devtmpfs        on  /dev                                       type  devtmpfs         (rw,nosuid,size=4096k,nr_inodes=970054,mode=755,inode64)
+tmpfs           on  /dev/shm                                   type  tmpfs            (rw,nosuid,nodev,inode64)
+devpts          on  /dev/pts                                   type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+sysfs           on  /sys                                       type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+securityfs      on  /sys/kernel/security                       type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+cgroup2         on  /sys/fs/cgroup                             type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+pstore          on  /sys/fs/pstore                             type  pstore           (rw,nosuid,nodev,noexec,relatime)
+efivarfs        on  /sys/firmware/efi/efivars                  type  efivarfs         (rw,nosuid,nodev,noexec,relatime)
+bpf             on  /sys/fs/bpf                                type  bpf              (rw,nosuid,nodev,noexec,relatime,mode=700)
+configfs        on  /sys/kernel/config                         type  configfs         (rw,nosuid,nodev,noexec,relatime)
+proc            on  /proc                                      type  proc             (rw,nosuid,nodev,noexec,relatime)
+tmpfs           on  /run                                       type  tmpfs            (rw,nosuid,nodev,size=1558100k,nr_inodes=819200,mode=755,inode64)
+systemd-1       on  /proc/sys/fs/binfmt_misc                   type  autofs           (rw,relatime,fd=36,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=708)
+debugfs         on  /sys/kernel/debug                          type  debugfs          (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs       on  /dev/hugepages                             type  hugetlbfs        (rw,nosuid,nodev,relatime,pagesize=2M)
+mqueue          on  /dev/mqueue                                type  mqueue           (rw,nosuid,nodev,noexec,relatime)
+tracefs         on  /sys/kernel/tracing                        type  tracefs          (rw,nosuid,nodev,noexec,relatime)
+tmpfs           on  /run/credentials/systemd-journald.service  type  tmpfs            (ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap)
+fusectl         on  /sys/fs/fuse/connections                   type  fusectl          (rw,nosuid,nodev,noexec,relatime)
+/dev/nvme0n1p1  on  /home                                      type  btrfs            (rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvolid=257,subvol=/@home)
+/dev/nvme0n1p1  on  /root                                      type  btrfs            (rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvolid=258,subvol=/@root)
+/dev/nvme0n1p1  on  /srv                                       type  btrfs            (rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvolid=259,subvol=/@srv)
+tmpfs           on  /tmp                                       type  tmpfs            (rw,noatime,inode64)
+/dev/nvme0n1p1  on  /var/log                                   type  btrfs            (rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvolid=261,subvol=/@log)
+/dev/nvme0n1p1  on  /var/cache                                 type  btrfs            (rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvolid=260,subvol=/@cache)
+/dev/nvme0n1p1  on  /var/tmp                                   type  btrfs            (rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvolid=262,subvol=/@tmp)
+/dev/nvme0n1p3  on  /boot/efi                                  type  vfat             (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro)
+binfmt_misc     on  /proc/sys/fs/binfmt_misc                   type  binfmt_misc      (rw,nosuid,nodev,noexec,relatime)
+tmpfs           on  /run/user/1000                             type  tmpfs            (rw,nosuid,nodev,relatime,size=779048k,nr_inodes=194762,mode=700,uid=1000,gid=1000,inode64)
+portal          on  /run/user/1000/doc                         type  fuse.portal      (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+gvfsd-fuse      on  /run/user/1000/gvfs                        type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/nvme0n1p6  on  /run/media/ac/76C65382C6534193             type  ntfs3            (rw,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,uhelper=udisks2)
+
+---- Running Processes ----
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  24828  7968 ?        Ss   Mar16   0:44 /usr/lib/systemd/systemd --switched-root --system --deserialize=51
+root           2  0.0  0.0      0     0 ?        S    Mar16   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Mar16   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-slub_flushwq]
+root           7  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        I    Mar16   0:00 [rcu_tasks_kthread]
+root          15  0.0  0.0      0     0 ?        I    Mar16   0:00 [rcu_tasks_rude_kthread]
+root          16  0.0  0.0      0     0 ?        I    Mar16   0:00 [rcu_tasks_trace_kthread]
+root          17  0.0  0.0      0     0 ?        S    Mar16   0:01 [ksoftirqd/0]
+root          18  0.0  0.0      0     0 ?        I    Mar16   4:05 [rcu_preempt]
+root          19  0.0  0.0      0     0 ?        S    Mar16   0:00 [rcub/0]
+root          20  0.0  0.0      0     0 ?        S    Mar16   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          21  0.0  0.0      0     0 ?        S    Mar16   0:00 [rcu_exp_gp_kthread_worker]
+root          22  0.0  0.0      0     0 ?        S    Mar16   0:23 [migration/0]
+root          23  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/0]
+root          24  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/0]
+root          25  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/2]
+root          26  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/2]
+root          27  0.0  0.0      0     0 ?        S    Mar16   0:16 [migration/2]
+root          28  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/2]
+root          31  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/4]
+root          32  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/4]
+root          33  0.0  0.0      0     0 ?        S    Mar16   0:36 [migration/4]
+root          34  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/4]
+root          37  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/5]
+root          38  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/5]
+root          39  0.0  0.0      0     0 ?        S    Mar16   0:20 [migration/5]
+root          40  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/5]
+root          42  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/5:0H-events_highpri]
+root          43  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/6]
+root          44  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/6]
+root          45  0.0  0.0      0     0 ?        S    Mar16   0:14 [migration/6]
+root          46  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/6]
+root          48  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/6:0H-events_highpri]
+root          49  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/7]
+root          50  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/7]
+root          51  0.0  0.0      0     0 ?        S    Mar16   0:09 [migration/7]
+root          52  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/7]
+root          54  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/7:0H-events_highpri]
+root          55  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/8]
+root          56  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/8]
+root          57  0.0  0.0      0     0 ?        S    Mar16   0:07 [migration/8]
+root          58  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/8]
+root          60  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/8:0H-events_highpri]
+root          61  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/9]
+root          62  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/9]
+root          63  0.0  0.0      0     0 ?        S    Mar16   0:05 [migration/9]
+root          64  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/9]
+root          66  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/9:0H-events_highpri]
+root          67  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/10]
+root          68  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/10]
+root          69  0.0  0.0      0     0 ?        S    Mar16   0:04 [migration/10]
+root          70  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/10]
+root          72  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/10:0H-events_highpri]
+root          73  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/11]
+root          74  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/11]
+root          75  0.0  0.0      0     0 ?        S    Mar16   0:03 [migration/11]
+root          76  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/11]
+root          78  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/11:0H-events_highpri]
+root          79  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/1]
+root          80  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/1]
+root          81  0.0  0.0      0     0 ?        S    Mar16   0:03 [migration/1]
+root          82  0.0  0.0      0     0 ?        S    Mar16   0:01 [ksoftirqd/1]
+root          85  0.0  0.0      0     0 ?        S    Mar16   0:00 [cpuhp/3]
+root          86  0.0  0.0      0     0 ?        S    Mar16   0:00 [idle_inject/3]
+root          87  0.0  0.0      0     0 ?        S    Mar16   0:02 [migration/3]
+root          88  0.0  0.0      0     0 ?        S    Mar16   0:00 [ksoftirqd/3]
+root          90  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/3:0H-events_highpri]
+root          91  0.0  0.0      0     0 ?        S    Mar16   0:00 [kdevtmpfs]
+root          92  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-inet_frag_wq]
+root          93  0.0  0.0      0     0 ?        S    Mar16   0:00 [kauditd]
+root          94  0.0  0.0      0     0 ?        S    Mar16   0:00 [khungtaskd]
+root          95  0.0  0.0      0     0 ?        S    Mar16   0:00 [oom_reaper]
+root          97  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-writeback]
+root          98  0.0  0.0      0     0 ?        S    Mar16   3:18 [kcompactd0]
+root          99  0.0  0.0      0     0 ?        SN   Mar16   0:00 [ksmd]
+root         100  0.0  0.0      0     0 ?        SN   Mar16   0:04 [khugepaged]
+root         101  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-kintegrityd]
+root         102  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-kblockd]
+root         103  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-blkcg_punt_bio]
+root         105  0.0  0.0      0     0 ?        S    Mar16   3:40 [irq/9-acpi]
+root         107  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-tpm_dev_wq]
+root         108  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-ata_sff]
+root         109  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-edac-poller]
+root         110  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-devfreq_wq]
+root         111  0.0  0.0      0     0 ?        S    Mar16   0:00 [watchdogd]
+root         112  0.0  0.0      0     0 ?        I<   Mar16   0:12 [kworker/8:1H-kblockd]
+root         113  0.2  0.0      0     0 ?        S    Mar16  20:04 [kswapd0]
+root         114  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-kthrotld]
+root         115  0.0  0.0      0     0 ?        S    Mar16   0:00 [irq/120-aerdrv]
+root         116  0.0  0.0      0     0 ?        S    Mar16   0:00 [irq/121-aerdrv]
+root         119  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-acpi_thermal_pm]
+root         123  0.0  0.0      0     0 ?        S    Mar16   0:04 [hwrng]
+root         127  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-hfi-updates]
+root         130  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-mld]
+root         131  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-ipv6_addrconf]
+root         138  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-kstrp]
+root         146  0.0  0.0      0     0 ?        I<   Mar16   0:20 [kworker/2:1H-kblockd]
+root         147  0.0  0.0      0     0 ?        I<   Mar16   0:11 [kworker/0:1H-events_highpri]
+root         149  0.0  0.0      0     0 ?        I<   Mar16   0:12 [kworker/9:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        I<   Mar16   0:08 [kworker/1:1H-kblockd]
+root         188  0.0  0.0      0     0 ?        I<   Mar16   0:11 [kworker/11:1H-kblockd]
+root         193  0.0  0.0      0     0 ?        I<   Mar16   0:19 [kworker/4:1H-events_highpri]
+root         200  0.0  0.0      0     0 ?        I<   Mar16   0:12 [kworker/10:1H-kblockd]
+root         202  0.0  0.0      0     0 ?        I<   Mar16   0:15 [kworker/5:1H-kblockd]
+root         205  0.0  0.0      0     0 ?        I<   Mar16   0:14 [kworker/6:1H-kblockd]
+root         206  0.0  0.0      0     0 ?        I<   Mar16   0:12 [kworker/7:1H-kblockd]
+root         306  0.0  0.0      0     0 ?        I<   Mar16   0:11 [kworker/3:1H-events_highpri]
+root         331  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-cryptd]
+root         338  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-nvme-wq]
+root         339  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-nvme-reset-wq]
+root         340  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-nvme-delete-wq]
+root         341  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-nvme-auth-wq]
+root         348  0.0  0.0      0     0 ?        S    Mar16   4:02 [irq/143-SYNA32C5:00]
+root         358  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-worker]
+root         359  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-delalloc]
+root         360  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-flush_delalloc]
+root         361  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-cache]
+root         362  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-fixup]
+root         363  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-endio]
+root         364  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-endio-meta]
+root         365  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-rmw]
+root         366  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-endio-write]
+root         367  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-compressed-write]
+root         368  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-freespace-write]
+root         369  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-delayed-meta]
+root         370  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-btrfs-qgroup-rescan]
+root         371  0.0  0.0      0     0 ?        S    Mar16   0:00 [btrfs-cleaner]
+root         372  0.0  0.0      0     0 ?        S    Mar16   1:07 [btrfs-transaction]
+root         465  0.0  0.0 127336  6704 ?        Ss   Mar16   0:24 /usr/lib/systemd/systemd-journald
+systemd+     467  0.0  0.0  15244  1420 ?        Ss   Mar16   0:55 /usr/lib/systemd/systemd-oomd
+root         480  0.0  0.0  14644  1424 ?        Ss   Mar16   0:00 /usr/lib/systemd/systemd-userdbd
+root         505  0.0  0.0      0     0 ?        S    Mar16   0:00 [psimon]
+systemd+     508  0.0  0.0  89440  1916 ?        Ssl  Mar16   0:00 /usr/lib/systemd/systemd-timesyncd
+root         516  0.0  0.0  41800  1868 ?        Ss   Mar16   0:26 /usr/lib/systemd/systemd-udevd
+root         519  0.0  0.0      0     0 ?        S    Mar16   0:00 [psimon]
+root         606  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-uas]
+root         612  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-cfg80211]
+root         629  0.0  0.0      0     0 ?        S    Mar16   0:00 [irq/16-processor_thermal_device_pci]
+root         641  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-ttm]
+root         642  0.0  0.0      0     0 ?        S    Mar16   0:00 [card1-crtc0]
+root         643  0.0  0.0      0     0 ?        S    Mar16   0:00 [card1-crtc1]
+root         644  0.0  0.0      0     0 ?        S    Mar16   0:00 [card1-crtc2]
+root         645  0.0  0.0      0     0 ?        S    Mar16   0:00 [card1-crtc3]
+root         646  0.0  0.0      0     0 ?        S    Mar16   3:12 [irq/145-rtw88_pci]
+root         649  0.0  0.0      0     0 ?        S    Mar16   0:01 [irq/146-AudioDSP]
+root         725  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-zswap-shrink]
+dbus         733  0.0  0.0  12052  1088 ?        Ss   Mar16   0:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         735  0.0  0.0  12176  1904 ?        S    Mar16   0:22 dbus-broker --log 4 --controller 9 --machine-id f879636c9f564792af5f944f0f2d8984 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+root         736  0.0  0.1 759164  9084 ?        Ssl  Mar16   1:10 /usr/bin/NetworkManager --no-daemon
+avahi        738  0.0  0.0   6752  1252 ?        Ss   Mar16   0:09 avahi-daemon: running [EDITH.local]
+root         739  0.0  0.0  10392  2672 ?        Ss   Mar16   0:01 /usr/lib/bluetooth/bluetoothd
+polkitd      744  0.0  0.1 386760  7912 ?        Ssl  Mar16   0:11 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root         745  0.0  0.0  15612  2688 ?        Ss   Mar16   0:04 /usr/lib/systemd/systemd-logind
+avahi        754  0.0  0.0   6488   316 ?        S    Mar16   0:00 avahi-daemon: chroot helper
+root         813  0.0  0.0 390660  1748 ?        Ssl  Mar16   0:03 /usr/bin/ModemManager
+root         831  0.0  0.0  16640  3100 ?        Ss   Mar16   0:42 /usr/bin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         839  0.0  0.0 155876  3564 ?        Ssl  Mar16   0:00 /usr/bin/sddm
+root         841  0.0  0.1 2462676 11612 ?       Ssl  Mar16   0:59 /usr/bin/containerd
+root         848  0.0  0.0 714480  3780 tty2     Ssl+ Mar16   0:00 /usr/lib/Xorg -nolisten tcp -background none -seat seat0 vt2 -auth /run/sddm/xauth_XKJuYP -noreset -displayfd 16
+root        1370  0.0  0.1 2481164 12496 ?       Ssl  Mar16   0:10 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1371  0.0  0.0  80064  4120 ?        Ss   Mar16   0:02 /usr/bin/nmbd --foreground --no-process-group
+root        1564  0.0  0.0  92436  1312 ?        Ss   Mar16   0:00 /usr/bin/smbd --foreground --no-process-group
+root        1575  0.0  0.0  89792   436 ?        S    Mar16   0:00 smbd: notifyd 
+root        1576  0.0  0.0  89800   760 ?        S    Mar16   0:00 smbd: cleanupd
+root        1631  0.0  0.0 308716  3676 ?        Ssl  Mar16   0:06 /usr/lib/power-profiles-daemon
+root        1638  0.0  0.0  79368   988 ?        S    Mar16   0:00 /usr/lib/sddm/sddm-helper --socket /tmp/sddm-auth-aecf3715-3cba-4c2e-8561-2886215dfeb6 --id 1 --start /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland --user ac
+ac          1645  0.0  0.0  21168  6316 ?        Ss   Mar16   0:04 /usr/lib/systemd/systemd --user --deserialize=9
+ac          1647  0.0  0.0  22212   560 ?        S    Mar16   0:00 (sd-pam)
+ac          1675  0.0  0.1 1018228 8676 ?        SLl  Mar16   0:01 /usr/bin/kwalletd6 --pam-login 12 13
+ac          1676  0.0  0.0 221504  1120 tty1     Ssl+ Mar16   0:00 /usr/bin/startplasma-wayland
+ac          1694  0.0  0.0   8140  1368 ?        Ss   Mar16   0:00 /usr/bin/dbus-broker-launch --scope user
+ac          1695  0.0  0.0  12424  7496 ?        S    Mar16   0:55 dbus-broker --log 4 --controller 10 --machine-id f879636c9f564792af5f944f0f2d8984 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+ac          1703  0.0  0.0 149408  1044 ?        Ssl  Mar16   0:00 /usr/bin/kwin_wayland_wrapper --xwayland
+ac          1707  0.0  0.1 268675788 11512 ?     SNsl Mar16   0:23 /usr/lib/kf6/baloo_file
+ac          1708  1.7  2.0 3828820 161092 ?      Sl   Mar16 131:29 /usr/bin/kwin_wayland --wayland-fd 7 --socket wayland-0 --xwayland-fd 8 --xwayland-fd 9 --xwayland-display :1 --xwayland-xauthority /run/user/1000/xauth_MLkVRr --xwayland
+root        1716  0.0  0.0 468368  4648 ?        Ssl  Mar16   0:03 /usr/lib/udisks2/udisksd
+ac          1717  0.0  0.0 957056  7700 ?        Ssl  Mar16   0:07 /usr/lib/xdg-desktop-portal
+ac          1727  0.0  0.0 305748  3768 ?        Ssl  Mar16   0:00 /usr/lib/xdg-permission-store
+ac          1733  0.0  0.0 605824  4912 ?        Ssl  Mar16   0:01 /usr/lib/xdg-document-portal
+root        1739  0.0  0.0   2568   396 ?        Ss   Mar16   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+root        1746  0.0  0.2 341516 15860 ?        Ssl  Mar16   0:37 /usr/lib/upowerd
+ac          1778  0.0  0.1 126068  9080 ?        S<sl Mar16   0:23 /usr/bin/pipewire
+ac          1779  0.0  0.1 413292 15284 ?        S<sl Mar16   6:53 /usr/bin/wireplumber
+ac          1783  0.1  0.1 592900 10188 ?        Sl   Mar16  12:08 /usr/bin/Xwayland :1 -auth /run/user/1000/xauth_MLkVRr -listenfd 8 -listenfd 9 -displayfd 79 -wm 81 -rootless -enable-ei-portal
+ac          1802  0.0  0.0 380444  1668 ?        Ssl  Mar16   0:00 /usr/lib/at-spi-bus-launcher
+ac          1822  0.0  0.0   8008   832 ?        S    Mar16   0:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+ac          1829  0.0  0.0   4144   500 ?        S    Mar16   0:00 dbus-broker --log 4 --controller 9 --machine-id f879636c9f564792af5f944f0f2d8984 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+ac          1836  0.0  0.1 792240 10116 ?        Ssl  Mar16   0:08 /usr/bin/ksmserver
+ac          1838  0.0  0.3 1474740 25416 ?       Ssl  Mar16   0:27 /usr/bin/kded6
+ac          1881  0.0  0.0 163644  1516 ?        Ssl  Mar16   0:00 /usr/lib/dconf-service
+ac          1885  0.0  0.0 168148   928 ?        Ssl  Mar16   0:00 /usr/lib/at-spi2-registryd --use-gnome-session
+ac          1918  0.0  0.1 655608 14328 ?        Ssl  Mar16   0:49 /usr/lib/kactivitymanagerd
+ac          1919  0.0  0.1 226452  9204 ?        Ssl  Mar16   0:08 /usr/bin/gmenudbusmenuproxy
+ac          1920  0.0  0.1 792384 10552 ?        Ssl  Mar16   0:08 /usr/bin/kaccess
+ac          1921  0.0  0.2 1528980 19020 ?       Ssl  Mar16   0:02 /usr/lib/polkit-kde-authentication-agent-1
+ac          1922  0.0  0.2 1102252 17948 ?       Ssl  Mar16   0:50 /usr/lib/org_kde_powerdevil
+ac          1923  0.0  0.1 225868  8360 ?        Ssl  Mar16   0:07 /usr/bin/xembedsniproxy
+root        1955  0.0  0.0      0     0 ?        S<   Mar16   0:00 [krfcommd]
+ac          2019  0.0  0.2  98112 16816 ?        S<sl Mar16   2:02 /usr/bin/pipewire-pulse
+ac          2034  0.0  0.0   8000   756 ?        S    Mar16   0:00 /usr/bin/xsettingsd
+ac          2084  0.0  0.0 658904  2072 ?        Ssl  Mar16   0:01 /usr/bin/python /usr/bin/firewall-applet
+ac          2085  0.0  0.2 1188888 16556 ?       Ssl  Mar16   0:03 /usr/bin/garuda-system-maintenance
+ac          2090  0.0  0.0 396760  7176 ?        Ssl  Mar16   0:15 /usr/bin/fcitx5
+ac          2095  0.0  0.3 1115228 28280 ?       Ssl  Mar16   0:12 /usr/bin/kdeconnectd
+ac          2097  0.0  0.2 1228228 18252 ?       Ssl  Mar16   0:09 /usr/bin/xwaylandvideobridge
+ac          2104  0.0  0.0 120792  2524 ?        Ssl  Mar16   0:41 python3 /usr/bin/libinput-gestures
+ac          2110  0.0  0.0 452632  4508 ?        Ssl  Mar16   0:01 /usr/lib/xdg-desktop-portal-gtk
+ac          2119  0.0  0.0 309788   748 ?        Ssl  Mar16   0:00 /usr/lib/geoclue-2.0/demos/agent
+ac          2120  0.0  0.1 1026748 10848 ?       Ssl  Mar16   0:01 /usr/lib/DiscoverNotifier --check-delay 20
+ac          2170  0.0  0.0 323408  1396 ?        Ssl  Mar16   0:00 /usr/lib/gvfsd
+ac          2198  0.0  0.0 390580  1132 ?        Sl   Mar16   0:00 /usr/lib/gvfsd-fuse /run/user/1000/gvfs -f
+rtkit       2272  0.0  0.0  21712   776 ?        SNsl Mar16   0:00 /usr/lib/rtkit-daemon
+ac          2278  0.0  0.3 2026260 28920 ?       Ssl  Mar16   1:25 /usr/lib/xdg-desktop-portal-kde
+ac          2299  0.0  0.0   7476  1292 ?        S    Mar16   1:17 libinput-debug-events --device /dev/input/by-path/pci-0000:00:15.1-platform-i2c_designware.1-event-mouse
+root       13942  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-xfsalloc]
+root       13943  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-xfs_mru_cache]
+root       13946  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsIO]
+root       13947  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13948  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13949  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13950  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13951  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13952  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13953  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13954  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13955  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13956  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13957  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13958  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsCommit]
+root       13959  0.0  0.0      0     0 ?        S    Mar16   0:00 [jfsSync]
+ac         25032  0.0  1.0 2678136 81924 ?       Ssl  Mar16   6:40 /usr/bin/telegram-desktop
+ac         49492  0.9  4.4 34870396 350528 ?     S<sl Mar19  35:32 /opt/google/chrome/chrome
+ac         49496  0.0  0.0   5832  2524 ?        S    Mar19   0:00 cat
+ac         49497  0.0  0.0   5832  2516 ?        S    Mar19   0:00 cat
+ac         49499  0.0  0.0 33598492 1140 ?       Sl   Mar19   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/ac/.config/google-chrome/Crash Reports --metrics-dir=/home/ac/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Garuda Linux --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=134.0.6998.88 --initial-client-fd=5 --shared-client-connection
+ac         49501  0.0  0.0 33568028 328 ?        Sl   Mar19   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/ac/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Garuda Linux --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=134.0.6998.88 --initial-client-fd=4 --shared-client-connection
+ac         49507  0.0  0.0 34199380 6292 ?       S    Mar19   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable
+ac         49508  0.0  0.0 34199368 3468 ?       S    Mar19   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable
+ac         49510  0.0  0.0 34199392 2692 ?       S    Mar19   0:03 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable
+ac         49543  0.9  1.3 34758384 105632 ?     S<l  Mar19  34:51 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac         49545  0.2  0.8 34011692 67508 ?      Sl   Mar19   8:25 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac         49547  0.0  0.2 34267480 19336 ?      Sl   Mar19   0:06 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac         49643  0.0  0.8 1463335908 65588 ?    Sl   Mar19   0:32 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --extension-process --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=24320008576 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac         49773  0.0  0.6 1461583772 51472 ?    S<l  Mar19   0:19 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --extension-process --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=16 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=24320257179 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac         49792  0.0  0.1 1027020 14688 ?       Sl   Mar19   0:05 /usr/bin/plasma-browser-integration-host chrome-extension://cimiefiiaegbelhefglklhhakcgmhkai/
+ac         50685  0.0  0.2 34031128 18752 ?      Sl   Mar19   0:50 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac         55141  0.0  0.1 1038588 10976 ?       Ssl  Mar19   0:00 /usr/bin/dolphin --daemon
+ac         60634  0.0  0.1 269450408 12912 ?     Ssl  Mar19   0:00 /usr/lib/baloorunner
+root       73454  0.0  0.0      0     0 ?        I<   Mar19   0:00 [kworker/2:2H]
+ac         79152  0.0  0.1 1016364 15084 ?       Ssl  Mar19   1:10 /usr/lib/kf6/kiod6
+root       83386  0.0  0.0 105984  2932 ?        Ss   Mar20   0:01 /usr/bin/dirmngr --homedir /etc/pacman.d/gnupg --supervised
+ac         84134  0.0  0.7 1253928 58612 ?       Ssl  Mar20   0:22 /usr/bin/konsole
+ac         84149  0.0  0.1 226868  9436 pts/0    Ssl  Mar20   0:01 /usr/bin/fish
+ac         88595  0.1  0.7 1218173100 56796 ?    S<sl Mar20   2:39 /opt/visual-studio-code/code /home/ac/Clearch
+ac         88598  0.0  0.0 34088880 4184 ?       S    Mar20   0:00 /opt/visual-studio-code/code --type=zygote --no-zygote-sandbox
+ac         88599  0.0  0.0 34088868 4244 ?       S    Mar20   0:00 /opt/visual-studio-code/code --type=zygote
+ac         88601  0.0  0.0 34088896 1132 ?       S    Mar20   0:00 /opt/visual-studio-code/code --type=zygote
+ac         88620  0.0  0.0 33575884 1332 ?       S<l  Mar20   0:00 /opt/visual-studio-code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/ac/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=cfbcd2e0-1046-4e83-94eb-989dc18a8fa2&iid=cfbcd2e0-1046-4e83-94eb-989dc18a8fa2&sid=cfbcd2e0-1046-4e83-94eb-989dc18a8fa2 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.98.2 --annotation=lsb-release=Garuda Linux --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=34.2.0 --initial-client-fd=42 --shared-client-connection
+ac         88637  0.5  0.5 34520784 45424 ?      S<l  Mar20  10:29 /opt/visual-studio-code/code --type=gpu-process --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+ac         88641  0.0  0.2 33942744 17880 ?      Sl   Mar20   0:10 /opt/visual-studio-code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+ac         88681  1.6  4.3 1220033868 335332 ?   Sl   Mar20  32:04 /opt/visual-studio-code/code --type=renderer --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/opt/visual-studio-code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1742409665483013 --launch-time-ticks=45145833814 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:35f57002-efb8-4376-b838-be7ad845a5ed
+ac         88706  0.1  0.8 1217912036 68784 ?    Sl   Mar20   2:00 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+ac         88707  0.0  0.2 1217928980 20340 ?    Sl   Mar20   0:25 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+ac         88726  0.5  0.8 1229882112 62800 ?    Sl   Mar20  10:09 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+ac         88950  0.0  0.0 1216136320 5480 ?     Sl   Mar20   0:01 /opt/visual-studio-code/code /home/ac/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10/packages/server/dist/serverMain.js --node-ipc --clientProcessId=88726
+ac         89022  0.0  0.0 3838268 1084 ?        Sl   Mar20   1:51 /home/ac/.vscode/extensions/rust-lang.rust-analyzer-0.3.2337-linux-x64/server/rust-analyzer
+ac         89083  0.0  0.1 1216136320 11124 ?    Sl   Mar20   0:01 /opt/visual-studio-code/code /opt/visual-studio-code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=88726
+ac         89410  0.0  0.0 338788   992 ?        S    Mar20   0:02 /home/ac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/libexec/rust-analyzer-proc-macro-srv
+ac         94098  0.2  0.4 1499156 37796 ?       Sl   Mar20   4:02 /home/ac/.cache/cloud-code/cloudcode_cli/cloudcode_cli/dc0df5ce/cloudcode_cli duet -logtostderr
+ac         94376  0.0  0.2 1217937356 16688 ?    Sl   Mar20   1:11 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+ac         94392  0.0  0.0  10300  3560 pts/1    Ss+  Mar20   0:01 /usr/bin/bash --init-file /opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+ac         95924  0.6  0.4 1216539444 33464 ?    SNl  Mar20  12:47 /opt/visual-studio-code/code --type=renderer --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/opt/visual-studio-code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1742409665483013 --launch-time-ticks=45539890964 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:35f57002-efb8-4376-b838-be7ad845a5ed
+ac        102525  0.0  0.0   5260     0 ?        S    Mar20   0:15 /home/ac/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python-env-tools/bin/pet server
+ac        102613  0.0  0.0 1216170868 5704 ?     Sl   Mar20   0:01 /opt/visual-studio-code/code /home/ac/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/server/server.js --node-ipc --clientProcessId=88726
+ac        102626  0.0  0.0   9516  2720 pts/2    Ss+  Mar20   0:00 /usr/bin/bash --init-file /opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root      126100  0.0  0.0      0     0 ?        I<   Mar20   0:00 [kworker/1:2H-kblockd]
+root      130065  0.0  0.0  20244  2828 ?        Ss   Mar20   0:00 /usr/bin/cupsd -l
+ac        139216  3.2  7.1 8432672 556896 ?      Ssl  09:20  22:45 /usr/bin/plasmashell --no-respawn
+ac        146761  0.0  0.1 1216136356 10688 ?    Sl   11:03   0:01 /opt/visual-studio-code/code /opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=88726
+ac        150015  0.0  0.5 3442292 39472 ?       Ssl  11:27   0:05 /usr/bin/krunner --daemon
+root      165338  0.0  0.0      0     0 ?        S    12:32   0:00 [scsi_eh_0]
+root      165339  0.0  0.0      0     0 ?        I<   12:32   0:00 [kworker/R-scsi_tmf_0]
+root      165341  0.0  0.0      0     0 ?        S    12:32   0:00 [usb-storage]
+root      165477  0.0  0.0      0     0 ?        I    13:10   0:02 [kworker/8:1-mm_percpu_wq]
+ac        172005  0.0  0.0   9520  4064 pts/3    Ss+  13:40   0:00 /usr/bin/bash --init-file /opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+ac        172307  0.0  0.2 1217878172 21744 ?    Sl   13:41   0:02 /opt/visual-studio-code/code /home/ac/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist/server.bundle.js --cancellationReceive=file:25ed1e27385cc601163fca16008d745813ba12f0df --node-ipc --clientProcessId=88726
+ac        181371  0.0  0.0 167292  5600 ?        Ssl  14:18   0:00 /usr/lib/gvfsd-metadata
+root      191397  0.0  0.0      0     0 ?        I    14:50   0:00 [kworker/1:2-mm_percpu_wq]
+root      192594  0.0  0.0      0     0 ?        I    15:03   0:01 [kworker/3:1-mm_percpu_wq]
+root      193075  0.0  0.0      0     0 ?        I    15:31   0:08 [kworker/4:3-events]
+root      193326  0.0  0.0      0     0 ?        I    15:31   0:03 [kworker/2:3-events]
+root      195016  0.0  0.0      0     0 ?        I<   16:06   0:00 [kworker/4:2H-kblockd]
+root      199151  0.0  0.0      0     0 ?        I    19:04   0:01 [kworker/10:1-events]
+ac        199576  2.5  5.9 1463451528 460576 ?   Sl   19:05   3:10 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2229 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=70662684233 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        199683 38.2  6.1 1459976400 480868 ?   SNl  19:06  47:12 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2238 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=70704789347 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        200415  0.0  1.3 1461586788 101992 ?   S<l  19:19   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --extension-process --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2265 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=71460002713 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        200532  0.7  2.5 1461658272 200896 ?   SNl  19:19   0:50 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2270 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=71507985649 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        200543  0.2  2.1 1459904264 170296 ?   SNl  19:19   0:18 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2271 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=71509681716 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        200562  0.0  1.5 1459888312 120636 ?   SNl  19:19   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2272 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=71510422892 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        200627  0.0  1.4 1459904948 114696 ?   SNl  19:20   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2277 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=71524473444 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+root      200804  0.0  0.0      0     0 ?        I    19:22   0:01 [kworker/7:1-events]
+root      200916  0.0  0.0      0     0 ?        I    19:25   0:02 [kworker/5:2-events]
+ac        201420  0.1  0.3 1216530468 30360 ?    SNl  19:29   0:06 /opt/visual-studio-code/code --type=renderer --crashpad-handler-pid=88620 --enable-crash-reporter=4170dd23-01db-4174-821e-8e658a08902d,no_channel --user-data-dir=/home/ac/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/opt/visual-studio-code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=16 --time-ticks-at-unix-epoch=-1742409665483013 --launch-time-ticks=72064898678 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1439003972507483688,653289974520841078,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:35f57002-efb8-4376-b838-be7ad845a5ed
+root      201738  0.0  0.0      0     0 ?        I    19:34   0:03 [kworker/0:1-events]
+root      202228  0.2  0.0      0     0 ?        I    19:44   0:11 [kworker/u48:1-phy0]
+ac        203090  2.7  3.8 1461631984 301340 ?   SNl  19:52   2:07 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2364 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=73451255475 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        203543  1.5  5.0 1461707108 393628 ?   SNl  19:59   1:03 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2384 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=73889565795 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+root      203586  0.0  0.0      0     0 ?        I    19:59   0:00 [kworker/10:0-cgroup_destroy]
+root      203849  0.0  0.0      0     0 ?        I    20:02   0:01 [kworker/6:0-events]
+root      204130  0.0  0.0      0     0 ?        I    20:05   0:00 [kworker/1:0-mm_percpu_wq]
+root      204491  0.1  0.0      0     0 ?        I    20:07   0:06 [kworker/u48:3-ipv6_addrconf]
+ac        204754  0.1  1.6 1461634700 129960 ?   SNl  20:10   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2420 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=74533122658 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+root      204893  0.0  0.0      0     0 ?        I    20:12   0:00 [kworker/3:0]
+root      204906  0.2  0.0      0     0 ?        I<   20:12   0:09 [kworker/u49:0-rtw_tx_wq]
+root      204982  0.0  0.0      0     0 ?        I    20:14   0:00 [kworker/8:2-events]
+root      205167  0.0  0.0      0     0 ?        I    20:17   0:00 [kworker/9:1]
+root      205915  0.0  0.0      0     0 ?        I    20:24   0:00 [kworker/9:2-mm_percpu_wq]
+root      206084  0.0  0.0      0     0 ?        I    20:31   0:00 [kworker/11:0-events]
+root      206360  0.3  0.0      0     0 ?        I<   20:35   0:07 [kworker/u49:1-rtw_tx_wq]
+root      206827  0.0  0.0      0     0 ?        I    20:42   0:00 [kworker/11:2-events]
+root      206837  0.0  0.0      0     0 ?        I    20:43   0:00 [kworker/4:2]
+root      206893  0.2  0.0      0     0 ?        I    20:44   0:03 [kworker/u48:5-btrfs-endio]
+root      206944  0.2  0.0      0     0 ?        I    20:45   0:03 [kworker/u48:8-btrfs-endio-write]
+root      207651  0.0  0.0      0     0 ?        I    20:50   0:00 [kworker/2:0]
+root      207654  0.1  0.0      0     0 ?        I    20:50   0:02 [kworker/u48:14-btrfs-endio]
+root      207655  0.1  0.0      0     0 ?        I    20:50   0:02 [kworker/u48:15-i915]
+root      207656  0.2  0.0      0     0 ?        I    20:50   0:02 [kworker/u48:16-btrfs-endio]
+root      207657  0.1  0.0      0     0 ?        I    20:50   0:02 [kworker/u48:17-btrfs-endio]
+root      207661  0.2  0.0      0     0 ?        I    20:50   0:02 [kworker/u48:21-i915]
+root      207662  0.1  0.0      0     0 ?        I    20:50   0:02 [kworker/u48:22-events_unbound]
+root      207770  0.0  0.0      0     0 ?        S    20:50   0:00 [psimon]
+root      208499  0.0  0.0      0     0 ?        I    20:50   0:00 [kworker/0:2-events]
+root      208504  0.0  0.0      0     0 ?        I    20:51   0:00 [kworker/7:2]
+ac        208719  0.7  2.9 1459928548 228140 ?   SNl  20:53   0:07 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2522 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=77124093757 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+root      208902  0.1  0.0      0     0 ?        I    20:56   0:01 [kworker/u48:0-btrfs-endio]
+root      209015  0.1  0.0      0     0 ?        I<   20:57   0:01 [kworker/u49:3-hci0]
+root      209024  0.0  0.0      0     0 ?        I    20:57   0:00 [kworker/6:1-mm_percpu_wq]
+root      209150  0.0  0.0      0     0 ?        I    21:00   0:00 [kworker/5:0]
+ac        209422  0.0  0.4 67796236 37032 ?      Sl   21:04   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-GB --service-sandbox-type=service --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        209429  0.2  2.2 1459919208 171952 ?   SNl  21:04   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2559 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=77801221522 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+root      209459  0.2  0.0      0     0 ?        I<   21:04   0:00 [kworker/u49:2-i915_flip]
+ac        209565  0.1  1.5 1461591968 121324 ?   Sl   21:06   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2565 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=77926713590 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        209657  0.0  1.1 1461526208 86208 ?    S<l  21:08   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --extension-process --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2569 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=78051831979 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        209658  0.1  1.1 1461526272 89180 ?    S<l  21:08   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --extension-process --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2570 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=78051835043 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        209659  0.1  1.1 1461526208 88848 ?    S<l  21:08   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --extension-process --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2571 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=78051838140 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+root      209690  0.0  0.0      0     0 ?        I    21:08   0:00 [kworker/u48:2-btrfs-endio-meta]
+root      209691  0.0  0.0      0     0 ?        I    21:08   0:00 [kworker/u48:4]
+ac        209732  0.0  0.8 1459814076 68484 ?    S<l  21:09   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=49499 --enable-crash-reporter=1d4be5d5-9c15-4942-9787-cd70fdf64cd8, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=2572 --time-ticks-at-unix-epoch=-1742332251355337 --launch-time-ticks=78062182477 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8239008311449590836,18273844950699575399,262144 --disable-features=EyeDropper --variations-seed-version=20250317-050122.955000
+ac        209767  3.3  2.3 1761020 179292 ?      Ssl  21:09   0:01 /usr/bin/dolphin
+ac        209784  0.0  0.3 268532708 28328 ?     S    21:09   0:00 /usr/lib/kf6/kioworker /usr/lib/qt6/plugins/kf6/kio/tags.so tags  local:/run/user/1000/dolphinAiIMUd.1.kioworker.socket
+ac        209786  0.6  0.3 171792 30800 ?        Sl   21:09   0:00 /usr/lib/kf6/kioworker /usr/lib/qt6/plugins/kf6/kio/kio_trash.so trash  local:/run/user/1000/dolphinJhgiOc.2.kioworker.socket
+ac        209800  1.8  1.8 1741776 142332 ?      SNl  21:09   0:00 /usr/lib/kf6/kioworker /usr/lib/qt6/plugins/kf6/kio/thumbnail.so thumbnail  local:/run/user/1000/dolphinxOYiwH.8.kioworker.socket
+root      209925  0.0  0.0      0     0 ?        I    21:09   0:00 [kworker/2:1-events]
+ac        209947  0.0  0.0 1226496 2924 pts/0    Sl+  21:09   0:00 ./os-scraper -all
+root      209977 27.2  0.0  14964  7008 ?        Ss   21:09   0:00 /usr/lib/systemd/systemd-hostnamed
+root      209978  0.0  0.0  15240  6672 ?        S    21:09   0:00 systemd-userwork: waiting...
+root      209979  0.0  0.0  15240  6644 ?        S    21:09   0:00 systemd-userwork: waiting...
+root      209980  0.0  0.0  15240  6484 ?        S    21:09   0:00 systemd-userwork: waiting...
+ac        209986  0.0  0.0   9872  6260 pts/0    R+   21:09   0:00 ps aux
+
+---- Active Services ----
+UNIT                               LOAD   ACTIVE SUB     DESCRIPTION
+  avahi-daemon.service               loaded active running Avahi mDNS/DNS-SD Stack
+  bluetooth.service                  loaded active running Bluetooth service
+  containerd.service                 loaded active running containerd container runtime
+  cups.service                       loaded active running CUPS Scheduler
+  dbus-broker.service                loaded active running D-Bus System Message Bus
+  dirmngr@etc-pacman.d-gnupg.service loaded active running GnuPG network certificate management daemon for /etc/pacman.d/gnupg
+  docker.service                     loaded active running Docker Application Container Engine
+  ModemManager.service               loaded active running Modem Manager
+  NetworkManager.service             loaded active running Network Manager
+  nmb.service                        loaded active running Samba NMB Daemon
+  polkit.service                     loaded active running Authorization Manager
+  power-profiles-daemon.service      loaded active running Power Profiles daemon
+  rtkit-daemon.service               loaded active running RealtimeKit Scheduling Policy Service
+  sddm.service                       loaded active running Simple Desktop Display Manager
+  smb.service                        loaded active running Samba SMB Daemon
+  systemd-hostnamed.service          loaded active running Hostname Service
+  systemd-journald.service           loaded active running Journal Service
+  systemd-logind.service             loaded active running User Login Management
+  systemd-oomd.service               loaded active running Userspace Out-Of-Memory (OOM) Killer
+  systemd-timesyncd.service          loaded active running Network Time Synchronization
+  systemd-udevd.service              loaded active running Rule-based Manager for Device Events and Files
+  systemd-userdbd.service            loaded active running User Database Manager
+  udisks2.service                    loaded active running Disk Manager
+  upower.service                     loaded active running Daemon for power management
+  user@1000.service                  loaded active running User Manager for UID 1000
+  wpa_supplicant.service             loaded active running WPA supplicant
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+26 loaded units listed.
+
+---- Logged In Users ----
+ac       tty1         2025-03-16 15:12
+ac       pts/0        2025-03-20 12:38 (:1)
+Fetching active services...
+
+Total Number Of Active Services: 26
+avahi-daemon.service
+bluetooth.service
+containerd.service
+cups.service
+dbus-broker.service
+dirmngr@etc-pacman.d-gnupg.service
+docker.service
+ModemManager.service
+NetworkManager.service
+nmb.service
+polkit.service
+power-profiles-daemon.service
+rtkit-daemon.service
+sddm.service
+smb.service
+systemd-hostnamed.service
+systemd-journald.service
+systemd-logind.service
+systemd-oomd.service
+systemd-timesyncd.service
+systemd-udevd.service
+systemd-userdbd.service
+udisks2.service
+upower.service
+user@1000.service
+wpa_supplicant.service
+
+Fetching startup settings for services...
+
+Total Number Of Services: 346
+accounts-daemon.service: disabled
+adsl.service: disabled
+archlinux-keyring-wkd-sync.service: static
+arptables.service: disabled
+audit-rules.service: disabled
+auditd.service: disabled
+auth-rpcgss-module.service: static
+autorandr-lid-listener.service: disabled
+autorandr.service: disabled
+autovt@.service: alias
+avahi-daemon.service: enabled
+avahi-dnsconfd.service: disabled
+blk-availability.service: disabled
+bluetooth.service: enabled
+bolt.service: static
+btrfs-balance.service: static
+btrfs-defrag.service: static
+btrfs-scrub.service: static
+btrfs-scrub@.service: static
+btrfs-trim.service: static
+btrfsmaintenance-refresh.service: static
+canberra-system-bootup.service: disabled
+canberra-system-shutdown-reboot.service: disabled
+canberra-system-shutdown.service: disabled
+capsule@.service: static
+colord.service: static
+configure-printer@.service: static
+console-getty.service: disabled
+container-getty@.service: static
+containerd.service: disabled
+create_ap.service: disabled
+cups-lpd@.service: static
+cups.service: disabled
+dbus-broker.service: disabled
+dbus-org.bluez.service: alias
+dbus-org.freedesktop.Avahi.service: alias
+dbus-org.freedesktop.hostname1.service: alias
+dbus-org.freedesktop.import1.service: alias
+dbus-org.freedesktop.locale1.service: alias
+dbus-org.freedesktop.login1.service: alias
+dbus-org.freedesktop.machine1.service: alias
+dbus-org.freedesktop.ModemManager1.service: alias
+dbus-org.freedesktop.nm-dispatcher.service: alias
+dbus-org.freedesktop.oom1.service: alias
+dbus-org.freedesktop.portable1.service: alias
+dbus-org.freedesktop.timedate1.service: alias
+dbus-org.freedesktop.timesync1.service: alias
+dbus.service: alias
+debug-shell.service: disabled
+dirmngr@.service: static
+display-manager.service: alias
+dm-event.service: static
+dmraid.service: disabled
+dnsmasq.service: disabled
+docker.service: enabled
+dracut-cmdline.service: static
+dracut-initqueue.service: static
+dracut-mount.service: static
+dracut-pre-mount.service: static
+dracut-pre-pivot.service: static
+dracut-pre-trigger.service: static
+dracut-pre-udev.service: static
+dracut-shutdown-onfailure.service: static
+dracut-shutdown.service: static
+e2scrub@.service: static
+e2scrub_all.service: static
+e2scrub_fail@.service: static
+e2scrub_reap.service: disabled
+ebtables.service: disabled
+emergency.service: static
+fancontrol.service: disabled
+firewalld.service: disabled
+flatpak-system-helper.service: static
+fprintd.service: static
+fsidd.service: disabled
+fstrim.service: static
+ftpd.service: disabled
+fwupd-refresh.service: static
+fwupd.service: static
+garuda-pacman-lock.service: enabled
+garuda-pacman-snapshot-reject.service: disabled
+garuda-system-maintenance@.service: static
+geoclue.service: static
+getty@.service: enabled
+git-daemon@.service: static
+gpg-agent@.service: static
+gpm.service: disabled
+grub-btrfs-snapper.service: static
+grub-btrfsd.service: disabled
+gssproxy.service: disabled
+hblock.service: static
+healthd.service: disabled
+hostapd.service: disabled
+hostapd@.service: disabled
+iio-sensor-proxy.service: static
+initrd-cleanup.service: static
+initrd-parse-etc.service: static
+initrd-switch-root.service: static
+initrd-udevadm-cleanup-db.service: static
+inputattach.service: disabled
+ip6tables.service: disabled
+ipp-usb.service: enabled
+iptables.service: disabled
+irexec.service: disabled
+keyboxd@.service: static
+kmod-static-nodes.service: static
+krb5-kadmind.service: disabled
+krb5-kdc.service: disabled
+krb5-kpropd.service: disabled
+krb5-kpropd@.service: static
+lastlog2-import.service: disabled
+ldconfig.service: static
+linux-modules-cleanup.service: enabled
+lircd-setup.service: disabled
+lircd-uinput.service: disabled
+lircd.service: disabled
+lircmd.service: disabled
+lm_sensors.service: disabled
+logrotate.service: static
+lvm-devices-import.service: disabled
+lvm2-lvmpolld.service: static
+lvm2-monitor.service: static
+man-db.service: static
+mdadm-grow-continue@.service: static
+mdadm-last-resort@.service: static
+mdcheck_continue.service: static
+mdcheck_start.service: static
+mdmon@.service: static
+mdmonitor-oneshot.service: static
+mdmonitor.service: static
+ModemManager.service: enabled
+modprobe@.service: static
+named.service: disabled
+NetworkManager-dispatcher.service: enabled
+NetworkManager-wait-online.service: enabled
+NetworkManager.service: enabled
+nfs-blkmap.service: disabled
+nfs-idmapd.service: static
+nfs-mountd.service: static
+nfs-server.service: disabled
+nfs-utils.service: static
+nfsdcld.service: static
+nfsv4-exportd.service: static
+nfsv4-server.service: disabled
+nftables.service: disabled
+nm-cloud-setup.service: disabled
+nm-priv-helper.service: static
+nmb.service: enabled
+openvpn-client@.service: disabled
+openvpn-server@.service: disabled
+oracle-xe.service: disabled
+ostree-boot-complete.service: static
+ostree-finalize-staged-hold.service: static
+ostree-finalize-staged.service: static
+ostree-prepare-root.service: static
+ostree-remount.service: disabled
+ostree-state-overlay@.service: disabled
+paccache.service: static
+pacman-filesdb-refresh.service: static
+pam_namespace.service: static
+pamac-cleancache.service: static
+pamac-daemon.service: static
+pamac-offline-upgrade.service: disabled
+passim.service: static
+pcscd.service: indirect
+pkgfile-update.service: static
+pkgfiled.service: disabled
+plocate-updatedb.service: static
+polkit.service: static
+power-profiles-daemon.service: enabled
+ppp@.service: disabled
+quotaon-root.service: static
+quotaon@.service: static
+reflector.service: disabled
+rescue.service: static
+rfkill-block@.service: disabled
+rfkill-unblock@.service: disabled
+rlogin@.service: static
+rpc-gssd.service: static
+rpc-statd-notify.service: static
+rpc-statd.service: static
+rpcbind.service: disabled
+rsh@.service: static
+rsyncd.service: disabled
+rsyncd@.service: static
+rtkit-daemon.service: disabled
+samba-bgqd.service: disabled
+samba.service: disabled
+saned@.service: indirect
+sddm.service: enabled
+sensord.service: disabled
+serial-getty@.service: disabled
+shadow.service: static
+slapd.service: disabled
+smartd.service: disabled
+smb.service: enabled
+snapper-backup.service: static
+snapper-boot.service: static
+snapper-cleanup.service: static
+snapper-timeline.service: static
+snapperd.service: static
+snmpd.service: disabled
+snmptrapd.service: disabled
+sshd-generated@.service: generated
+sshd-unix-local@.service: alias
+sshd.service: disabled
+sshdgenkeys.service: disabled
+strongswan-starter.service: disabled
+strongswan.service: disabled
+sudo_logsrvd.service: disabled
+system-update-cleanup.service: static
+systemd-ask-password-console.service: static
+systemd-ask-password-wall.service: static
+systemd-backlight@.service: static
+systemd-battery-check.service: static
+systemd-binfmt.service: static
+systemd-bless-boot.service: static
+systemd-boot-check-no-failures.service: disabled
+systemd-boot-random-seed.service: static
+systemd-boot-update.service: disabled
+systemd-bootctl@.service: static
+systemd-bsod.service: static
+systemd-confext.service: disabled
+systemd-coredump@.service: static
+systemd-creds@.service: static
+systemd-exit.service: static
+systemd-firstboot.service: static
+systemd-fsck-root.service: static
+systemd-fsck@.service: static
+systemd-growfs-root.service: static
+systemd-growfs@.service: static
+systemd-halt.service: static
+systemd-hibernate-clear.service: static
+systemd-hibernate-resume.service: static
+systemd-hibernate.service: static
+systemd-homed-activate.service: disabled
+systemd-homed-firstboot.service: disabled
+systemd-homed.service: disabled
+systemd-hostnamed.service: static
+systemd-hwdb-update.service: static
+systemd-hybrid-sleep.service: static
+systemd-importd.service: static
+systemd-journal-catalog-update.service: static
+systemd-journal-flush.service: static
+systemd-journal-gatewayd.service: indirect
+systemd-journal-remote.service: indirect
+systemd-journal-upload.service: disabled
+systemd-journald-sync@.service: static
+systemd-journald.service: static
+systemd-journald@.service: static
+systemd-kexec.service: static
+systemd-localed.service: static
+systemd-logind.service: static
+systemd-machine-id-commit.service: static
+systemd-machined.service: static
+systemd-modules-load.service: static
+systemd-mountfsd.service: indirect
+systemd-network-generator.service: disabled
+systemd-networkd-persistent-storage.service: static
+systemd-networkd-wait-online.service: disabled
+systemd-networkd-wait-online@.service: disabled
+systemd-networkd.service: disabled
+systemd-nspawn@.service: disabled
+systemd-nsresourced.service: indirect
+systemd-oomd.service: enabled
+systemd-pcrextend@.service: static
+systemd-pcrfs-root.service: static
+systemd-pcrfs@.service: static
+systemd-pcrlock-file-system.service: disabled
+systemd-pcrlock-firmware-code.service: disabled
+systemd-pcrlock-firmware-config.service: disabled
+systemd-pcrlock-machine-id.service: disabled
+systemd-pcrlock-make-policy.service: disabled
+systemd-pcrlock-secureboot-authority.service: disabled
+systemd-pcrlock-secureboot-policy.service: disabled
+systemd-pcrlock@.service: static
+systemd-pcrmachine.service: static
+systemd-pcrphase-initrd.service: static
+systemd-pcrphase-sysinit.service: static
+systemd-pcrphase.service: static
+systemd-portabled.service: static
+systemd-poweroff.service: static
+systemd-pstore.service: disabled
+systemd-quotacheck-root.service: static
+systemd-quotacheck@.service: static
+systemd-random-seed.service: static
+systemd-reboot.service: static
+systemd-remount-fs.service: enabled-runtime
+systemd-repart.service: static
+systemd-resolved.service: disabled
+systemd-rfkill.service: static
+systemd-soft-reboot.service: static
+systemd-storagetm.service: static
+systemd-suspend-then-hibernate.service: static
+systemd-suspend.service: static
+systemd-sysctl.service: static
+systemd-sysext.service: disabled
+systemd-sysext@.service: static
+systemd-sysupdate-reboot.service: indirect
+systemd-sysupdate.service: indirect
+systemd-sysusers.service: static
+systemd-time-wait-sync.service: disabled
+systemd-timedated.service: static
+systemd-timesyncd.service: enabled
+systemd-tmpfiles-clean.service: static
+systemd-tmpfiles-setup-dev-early.service: static
+systemd-tmpfiles-setup-dev.service: static
+systemd-tmpfiles-setup.service: static
+systemd-tpm2-setup-early.service: static
+systemd-tpm2-setup.service: static
+systemd-udev-load-credentials.service: disabled
+systemd-udev-settle.service: static
+systemd-udev-trigger.service: static
+systemd-udevd.service: static
+systemd-update-done.service: static
+systemd-update-utmp.service: static
+systemd-user-sessions.service: static
+systemd-userdbd.service: indirect
+systemd-vconsole-setup.service: static
+systemd-vmspawn@.service: disabled
+systemd-volatile-root.service: static
+systemd-zram-setup@.service: static
+talk.service: indirect
+teamd@.service: static
+telnet@.service: static
+udisks2.service: disabled
+upower.service: disabled
+usb_modeswitch@.service: static
+user-runtime-dir@.service: static
+user@.service: static
+uuidd.service: indirect
+vpnc@.service: disabled
+wacom-inputattach@.service: static
+wg-quick@.service: disabled
+winbind.service: disabled
+wpa_supplicant-nl80211@.service: disabled
+wpa_supplicant-wired@.service: disabled
+wpa_supplicant.service: disabled
+wpa_supplicant@.service: disabled
+xfs_scrub@.service: static
+xfs_scrub_all.service: static
+xfs_scrub_all_fail.service: static
+xfs_scrub_fail@.service: static
+xfs_scrub_media@.service: static
+xfs_scrub_media_fail@.service: static
+xl2tpd.service: disabled
+Error reading .zsh_history file: open /home/ac/.zsh_history: no such file or directory
+Current shell: /usr/bin/fish
+## Set values
+# Hide welcome message & ensure we are reporting fish as shell
+set fish_greeting
+set VIRTUAL_ENV_DISABLE_PROMPT "1"
+set -xU MANPAGER "sh -c 'col -bx | bat -l man -p'"
+set -xU MANROFFOPT "-c"
+set -x SHELL /usr/bin/fish
+
+## Export variable need for qt-theme
+if type "qtile" >> /dev/null 2>&1
+   set -x QT_QPA_PLATFORMTHEME "qt5ct"
+end
+
+# Set settings for https://github.com/franciscolourenco/done
+set -U __done_min_cmd_duration 10000
+set -U __done_notification_urgency_level low
+
+
+## Environment setup
+# Apply .profile: use this to put fish compatible .profile stuff in
+if test -f ~/.fish_profile
+  source ~/.fish_profile
+end
+
+# Add ~/.local/bin to PATH
+if test -d ~/.local/bin
+    if not contains -- ~/.local/bin $PATH
+        set -p PATH ~/.local/bin
+    end
+end
+
+# Add depot_tools to PATH
+if test -d ~/Applications/depot_tools
+    if not contains -- ~/Applications/depot_tools $PATH
+        set -p PATH ~/Applications/depot_tools
+    end
+end
+
+
+## Starship prompt
+if status --is-interactive
+   source ("/usr/bin/starship" init fish --print-full-init | psub)
+end
+
+
+## Advanced command-not-found hook
+source /usr/share/doc/find-the-command/ftc.fish
+
+
+## Functions
+# Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
+function __history_previous_command
+  switch (commandline -t)
+  case "!"
+    commandline -t $history[1]; commandline -f repaint
+  case "*"
+    commandline -i !
+  end
+end
+
+function __history_previous_command_arguments
+  switch (commandline -t)
+  case "!"
+    commandline -t ""
+    commandline -f history-token-search-backward
+  case "*"
+    commandline -i '$'
+  end
+end
+
+if [ "$fish_key_bindings" = fish_vi_key_bindings ];
+  bind -Minsert ! __history_previous_command
+  bind -Minsert '$' __history_previous_command_arguments
+else
+  bind ! __history_previous_command
+  bind '$' __history_previous_command_arguments
+end
+
+# Fish command history
+function history
+    builtin history --show-time='%F %T '
+end
+
+function backup --argument filename
+    cp $filename $filename.bak
+end
+
+# Copy DIR1 DIR2
+function copy
+    set count (count $argv | tr -d \n)
+    if test "$count" = 2; and test -d "$argv[1]"
+	set from (echo $argv[1] | string trim --right --chars=/)
+	set to (echo $argv[2])
+        command cp -r $from $to
+    else
+        command cp $argv
+    end
+end
+
+# Cleanup local orphaned packages
+function cleanup
+    while pacman -Qdtq
+        sudo pacman -R (pacman -Qdtq)
+    end
+end
+
+## Useful aliases
+
+# Replace ls with eza
+alias ls 'eza -al --color=always --group-directories-first --icons' # preferred listing
+alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ll 'eza -l --color=always --group-directories-first --icons'  # long format
+alias lt 'eza -aT --color=always --group-directories-first --icons' # tree listing
+alias l. 'eza -ald --color=always --group-directories-first --icons .*' # show only dotfiles
+
+# Replace some more things with better alternatives
+alias cat 'bat --style header --style snip --style changes --style header'
+if not test -x /usr/bin/yay; and test -x /usr/bin/paru
+    alias yay 'paru'
+end
+
+
+# Common use
+alias .. 'cd ..'
+alias ... 'cd ../..'
+alias .... 'cd ../../..'
+alias ..... 'cd ../../../..'
+alias ...... 'cd ../../../../..'
+alias big 'expac -H M "%m\t%n" | sort -h | nl'     # Sort installed packages according to size in MB (expac must be installed)
+alias dir 'dir --color=auto'
+alias fixpacman 'sudo rm /var/lib/pacman/db.lck'
+alias gitpkg 'pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
+alias grep 'ugrep --color=auto'
+alias egrep 'ugrep -E --color=auto'
+alias fgrep 'ugrep -F --color=auto'
+alias grubup 'sudo update-grub'
+alias hw 'hwinfo --short'                          # Hardware Info
+alias ip 'ip -color'
+alias psmem 'ps auxf | sort -nr -k 4'
+alias psmem10 'ps auxf | sort -nr -k 4 | head -10'
+alias rmpkg 'sudo pacman -Rdd'
+alias tarnow 'tar -acf '
+alias untar 'tar -zxvf '
+alias upd '/usr/bin/garuda-update'
+alias vdir 'vdir --color=auto'
+alias wget 'wget -c '
+
+# Get fastest mirrors
+alias mirror 'sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist'
+alias mirrora 'sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist'
+alias mirrord 'sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist'
+alias mirrors 'sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist'
+
+# Help people new to Arch
+alias apt 'man pacman'
+alias apt-get 'man pacman'
+alias please 'sudo'
+alias tb 'nc termbin.com 9999'
+alias helpme 'echo "To print basic information about a command use tldr <command>"'
+alias pacdiff 'sudo -H DIFFPROG=meld pacdiff'
+
+# Get the error messages from journalctl
+alias jctl 'journalctl -p 3 -xb'
+
+# Recent installed packages
+alias rip 'expac --timefmt="%Y-%m-%d %T" "%l\t%n %v" | sort | tail -200 | nl'
+
+## Run fastfetch if session is interactive
+if status --is-interactive && type -q fastfetch
+   fastfetch --config neofetch.jsonc
+end
+
